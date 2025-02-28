@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="449dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="enter user name"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/etPinNumber"
+        android:layout_width="396dp"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:hint="enter "
+        android:inputType="text"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        tools:layout_editor_absoluteX="-17dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <Button
+        android:id="@+id/btClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="clear"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+</LinearLayout>
